@@ -1,0 +1,706 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test app functionalities should change both counters  correctly without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="slider-holder"
+    >
+      <input
+        data-testid="slider-testid"
+        max="100"
+        min="1"
+        type="range"
+        value="2"
+      />
+      <p>
+        Current Value of the slider is 
+        <strong>
+          2
+        </strong>
+      </p>
+      <div
+        class="toggles-holder"
+      >
+        <div>
+          <p>
+            increment toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+        <div>
+          <p>
+            decrement toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="counters-holder"
+    >
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          2
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn "
+            data-testid="add-btn-testid"
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn "
+            data-testid="dec-btn-testid"
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn "
+            data-testid="reset-btn-testid"
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          -2
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn disabled"
+            data-testid="add-btn-testid"
+            disabled=""
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn disabled"
+            data-testid="dec-btn-testid"
+            disabled=""
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn disabled"
+            data-testid="reset-btn-testid"
+            disabled=""
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test app functionalities should decrement correctly without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="slider-holder"
+    >
+      <input
+        data-testid="slider-testid"
+        max="100"
+        min="1"
+        type="range"
+        value="1"
+      />
+      <p>
+        Current Value of the slider is 
+        <strong>
+          1
+        </strong>
+      </p>
+      <div
+        class="toggles-holder"
+      >
+        <div>
+          <p>
+            increment toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+        <div>
+          <p>
+            decrement toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="counters-holder"
+    >
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          -1
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn "
+            data-testid="add-btn-testid"
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn "
+            data-testid="dec-btn-testid"
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn "
+            data-testid="reset-btn-testid"
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          0
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn disabled"
+            data-testid="add-btn-testid"
+            disabled=""
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn disabled"
+            data-testid="dec-btn-testid"
+            disabled=""
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn disabled"
+            data-testid="reset-btn-testid"
+            disabled=""
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test app functionalities should increment correctly without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="slider-holder"
+    >
+      <input
+        data-testid="slider-testid"
+        max="100"
+        min="1"
+        type="range"
+        value="1"
+      />
+      <p>
+        Current Value of the slider is 
+        <strong>
+          1
+        </strong>
+      </p>
+      <div
+        class="toggles-holder"
+      >
+        <div>
+          <p>
+            increment toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+        <div>
+          <p>
+            decrement toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="counters-holder"
+    >
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          1
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn "
+            data-testid="add-btn-testid"
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn "
+            data-testid="dec-btn-testid"
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn "
+            data-testid="reset-btn-testid"
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          0
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn disabled"
+            data-testid="add-btn-testid"
+            disabled=""
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn disabled"
+            data-testid="dec-btn-testid"
+            disabled=""
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn disabled"
+            data-testid="reset-btn-testid"
+            disabled=""
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test app functionalities should render app  without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="slider-holder"
+    >
+      <input
+        data-testid="slider-testid"
+        max="100"
+        min="1"
+        type="range"
+        value="1"
+      />
+      <p>
+        Current Value of the slider is 
+        <strong>
+          1
+        </strong>
+      </p>
+      <div
+        class="toggles-holder"
+      >
+        <div>
+          <p>
+            increment toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+        <div>
+          <p>
+            decrement toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="counters-holder"
+    >
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          0
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn "
+            data-testid="add-btn-testid"
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn "
+            data-testid="dec-btn-testid"
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn "
+            data-testid="reset-btn-testid"
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          0
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn disabled"
+            data-testid="add-btn-testid"
+            disabled=""
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn disabled"
+            data-testid="dec-btn-testid"
+            disabled=""
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn disabled"
+            data-testid="reset-btn-testid"
+            disabled=""
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test app functionalities should reset correctly without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="slider-holder"
+    >
+      <input
+        data-testid="slider-testid"
+        max="100"
+        min="1"
+        type="range"
+        value="1"
+      />
+      <p>
+        Current Value of the slider is 
+        <strong>
+          1
+        </strong>
+      </p>
+      <div
+        class="toggles-holder"
+      >
+        <div>
+          <p>
+            increment toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+        <div>
+          <p>
+            decrement toggle
+          </p>
+          <label
+            class="switch"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="slider round"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="counters-holder"
+    >
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          0
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn "
+            data-testid="add-btn-testid"
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn "
+            data-testid="dec-btn-testid"
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn "
+            data-testid="reset-btn-testid"
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="counter"
+      >
+        <div
+          data-testid="count-value-testid"
+        >
+          0
+        </div>
+        <div
+          class="controls"
+        >
+          <button
+            class="addBtn disabled"
+            data-testid="add-btn-testid"
+            disabled=""
+          >
+            <span>
+              +
+            </span>
+          </button>
+          <button
+            class="decBtn disabled"
+            data-testid="dec-btn-testid"
+            disabled=""
+          >
+            <span>
+              -
+            </span>
+          </button>
+          <button
+            class="resetBtn disabled"
+            data-testid="reset-btn-testid"
+            disabled=""
+          >
+            <span>
+              reset
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
